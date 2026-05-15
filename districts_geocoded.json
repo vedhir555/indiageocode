@@ -1,3 +1,4489 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c93205c74c35963d4d07206f65edef11a6dc5c4af33ca2b5318d00c84df95fca
-size 91810
+[
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "468",
+    "district_name": "Kachchh",
+    "lat": 23.734927,
+    "lng": 69.914527
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "469",
+    "district_name": "Banas Kantha",
+    "lat": 24.270592,
+    "lng": 72.040932
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "470",
+    "district_name": "Patan",
+    "lat": 23.772663,
+    "lng": 71.767271
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "471",
+    "district_name": "Mahesana",
+    "lat": 23.571701,
+    "lng": 72.403914
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "472",
+    "district_name": "Sabar Kantha",
+    "lat": 23.779092,
+    "lng": 73.185653
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "473",
+    "district_name": "Gandhinagar",
+    "lat": 23.28141,
+    "lng": 72.684174
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "474",
+    "district_name": "Ahmadabad",
+    "lat": 22.750996,
+    "lng": 72.226673
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "475",
+    "district_name": "Surendranagar",
+    "lat": 22.827412,
+    "lng": 71.568306
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "476",
+    "district_name": "Rajkot",
+    "lat": 22.355748,
+    "lng": 70.771724
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "477",
+    "district_name": "Jamnagar",
+    "lat": 22.338595,
+    "lng": 69.799774
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "478",
+    "district_name": "Porbandar",
+    "lat": 21.603968,
+    "lng": 69.761395
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "479",
+    "district_name": "Junagadh",
+    "lat": 21.184368,
+    "lng": 70.582386
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "480",
+    "district_name": "Amreli",
+    "lat": 21.419681,
+    "lng": 71.208496
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "481",
+    "district_name": "Bhavnagar",
+    "lat": 21.669383,
+    "lng": 71.915314
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "482",
+    "district_name": "Anand",
+    "lat": 22.448745,
+    "lng": 72.75889
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "483",
+    "district_name": "Kheda",
+    "lat": 22.893472,
+    "lng": 73.043465
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "484",
+    "district_name": "Panch Mahals",
+    "lat": 22.872884,
+    "lng": 73.690378
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "485",
+    "district_name": "Dohad",
+    "lat": 22.919123,
+    "lng": 74.12713
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "486",
+    "district_name": "Vadodara",
+    "lat": 22.318076,
+    "lng": 73.560547
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "487",
+    "district_name": "Narmada",
+    "lat": 21.736687,
+    "lng": 73.644617
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "488",
+    "district_name": "Bharuch",
+    "lat": 21.84183,
+    "lng": 72.978898
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "489",
+    "district_name": "The Dangs",
+    "lat": 20.820718,
+    "lng": 73.707682
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "490",
+    "district_name": "Navsari",
+    "lat": 20.827483,
+    "lng": 73.112939
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "491",
+    "district_name": "Valsad",
+    "lat": 20.444496,
+    "lng": 73.119259
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "492",
+    "district_name": "Surat",
+    "lat": 21.193515,
+    "lng": 73.15125
+  },
+  {
+    "pc11_state_id": "24",
+    "pc11_district_id": "493",
+    "district_name": "Tapi",
+    "lat": 21.189199,
+    "lng": 73.767335
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "370",
+    "district_name": "Bargarh",
+    "lat": 21.236175,
+    "lng": 83.284138
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "371",
+    "district_name": "Jharsuguda",
+    "lat": 21.799142,
+    "lng": 83.903821
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "372",
+    "district_name": "Sambalpur",
+    "lat": 21.557472,
+    "lng": 84.292604
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "373",
+    "district_name": "Debagarh",
+    "lat": 21.447256,
+    "lng": 84.790789
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "374",
+    "district_name": "Sundargarh",
+    "lat": 22.057215,
+    "lng": 84.450531
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "375",
+    "district_name": "Kendujhar",
+    "lat": 21.58587,
+    "lng": 85.777681
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "376",
+    "district_name": "Mayurbhanj",
+    "lat": 21.916063,
+    "lng": 86.420664
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "377",
+    "district_name": "Baleshwar",
+    "lat": 21.522783,
+    "lng": 86.919309
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "378",
+    "district_name": "Bhadrak",
+    "lat": 20.983833,
+    "lng": 86.638496
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "379",
+    "district_name": "Kendrapara",
+    "lat": 20.547841,
+    "lng": 86.649458
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "380",
+    "district_name": "Jagatsinghapur",
+    "lat": 20.179429,
+    "lng": 86.369055
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "381",
+    "district_name": "Cuttack",
+    "lat": 20.36734,
+    "lng": 85.565803
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "382",
+    "district_name": "Jajapur",
+    "lat": 20.87471,
+    "lng": 86.15497
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "383",
+    "district_name": "Dhenkanal",
+    "lat": 20.830103,
+    "lng": 85.572138
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "384",
+    "district_name": "Anugul",
+    "lat": 21.101694,
+    "lng": 84.828102
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "385",
+    "district_name": "Nayagarh",
+    "lat": 20.242652,
+    "lng": 84.96893
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "386",
+    "district_name": "Khordha",
+    "lat": 20.05265,
+    "lng": 85.505963
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "387",
+    "district_name": "Puri",
+    "lat": 19.831332,
+    "lng": 85.756097
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "388",
+    "district_name": "Ganjam",
+    "lat": 19.611966,
+    "lng": 84.656282
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "389",
+    "district_name": "Gajapati",
+    "lat": 19.198658,
+    "lng": 84.114874
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "390",
+    "district_name": "Kandhamal",
+    "lat": 20.135315,
+    "lng": 84.039796
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "391",
+    "district_name": "Baudh",
+    "lat": 20.641806,
+    "lng": 84.180074
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "392",
+    "district_name": "Subarnapur",
+    "lat": 20.848848,
+    "lng": 83.86016
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "393",
+    "district_name": "Balangir",
+    "lat": 20.61087,
+    "lng": 83.191118
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "394",
+    "district_name": "Nuapada",
+    "lat": 20.548129,
+    "lng": 82.612207
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "395",
+    "district_name": "Kalahandi",
+    "lat": 19.819566,
+    "lng": 83.159663
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "396",
+    "district_name": "Rayagada",
+    "lat": 19.442331,
+    "lng": 83.449872
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "397",
+    "district_name": "Nabarangapur",
+    "lat": 19.612781,
+    "lng": 82.355802
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "398",
+    "district_name": "Koraput",
+    "lat": 18.72054,
+    "lng": 82.750871
+  },
+  {
+    "pc11_state_id": "21",
+    "pc11_district_id": "399",
+    "district_name": "Malkangiri",
+    "lat": 18.270711,
+    "lng": 81.904362
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "400",
+    "district_name": "Koriya",
+    "lat": 23.437523,
+    "lng": 82.165865
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "401",
+    "district_name": "Surguja",
+    "lat": 23.362564,
+    "lng": 83.29268
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "402",
+    "district_name": "Jashpur",
+    "lat": 22.773038,
+    "lng": 83.89738
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "403",
+    "district_name": "Raigarh",
+    "lat": 22.072898,
+    "lng": 83.369684
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "404",
+    "district_name": "Korba",
+    "lat": 22.523606,
+    "lng": 82.627875
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "405",
+    "district_name": "Janjgir - Champa",
+    "lat": 21.975339,
+    "lng": 82.810618
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "406",
+    "district_name": "Bilaspur",
+    "lat": 22.41577,
+    "lng": 81.972724
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "407",
+    "district_name": "Kabeerdham",
+    "lat": 22.116317,
+    "lng": 81.190555
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "408",
+    "district_name": "Rajnandgaon",
+    "lat": 20.975531,
+    "lng": 80.799302
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "409",
+    "district_name": "Durg",
+    "lat": 21.204668,
+    "lng": 81.371828
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "410",
+    "district_name": "Raipur",
+    "lat": 20.834471,
+    "lng": 82.264775
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "411",
+    "district_name": "Mahasamund",
+    "lat": 21.195183,
+    "lng": 82.637309
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "412",
+    "district_name": "Dhamtari",
+    "lat": 20.539103,
+    "lng": 81.790281
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "413",
+    "district_name": "Uttar Bastar Kanker",
+    "lat": 20.12999,
+    "lng": 81.10636
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "414",
+    "district_name": "Bastar",
+    "lat": 19.404056,
+    "lng": 81.764315
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "415",
+    "district_name": "Narayanpur",
+    "lat": 19.528674,
+    "lng": 81.087042
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "416",
+    "district_name": "Dakshin Bastar Dantewada",
+    "lat": 18.487747,
+    "lng": 81.436729
+  },
+  {
+    "pc11_state_id": "22",
+    "pc11_district_id": "417",
+    "district_name": "Bijapur",
+    "lat": 18.766726,
+    "lng": 80.870171
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "418",
+    "district_name": "Sheopur",
+    "lat": 25.744734,
+    "lng": 77.067886
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "419",
+    "district_name": "Morena",
+    "lat": 26.378866,
+    "lng": 77.833962
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "420",
+    "district_name": "Bhind",
+    "lat": 26.354012,
+    "lng": 78.67539
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "421",
+    "district_name": "Gwalior",
+    "lat": 26.020085,
+    "lng": 78.16109
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "422",
+    "district_name": "Datia",
+    "lat": 25.674825,
+    "lng": 78.551935
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "423",
+    "district_name": "Shivpuri",
+    "lat": 25.37094,
+    "lng": 77.710796
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "424",
+    "district_name": "Tikamgarh",
+    "lat": 25.005825,
+    "lng": 78.89214
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "425",
+    "district_name": "Chhatarpur",
+    "lat": 24.760987,
+    "lng": 79.711825
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "426",
+    "district_name": "Panna",
+    "lat": 24.482598,
+    "lng": 80.201683
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "427",
+    "district_name": "Sagar",
+    "lat": 23.806969,
+    "lng": 78.697785
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "428",
+    "district_name": "Damoh",
+    "lat": 23.797436,
+    "lng": 79.508255
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "429",
+    "district_name": "Satna",
+    "lat": 24.582821,
+    "lng": 80.750435
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "430",
+    "district_name": "Rewa",
+    "lat": 24.753194,
+    "lng": 81.682713
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "431",
+    "district_name": "Umaria",
+    "lat": 23.641812,
+    "lng": 80.927316
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "432",
+    "district_name": "Neemuch",
+    "lat": 24.641334,
+    "lng": 75.155615
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "433",
+    "district_name": "Mandsaur",
+    "lat": 24.260866,
+    "lng": 75.397376
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "434",
+    "district_name": "Ratlam",
+    "lat": 23.490951,
+    "lng": 75.099619
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "435",
+    "district_name": "Ujjain",
+    "lat": 23.285991,
+    "lng": 75.689248
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "436",
+    "district_name": "Shajapur",
+    "lat": 23.720337,
+    "lng": 76.365084
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "437",
+    "district_name": "Dewas",
+    "lat": 22.802779,
+    "lng": 76.514336
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "438",
+    "district_name": "Dhar",
+    "lat": 22.571501,
+    "lng": 75.107557
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "439",
+    "district_name": "Indore",
+    "lat": 22.704464,
+    "lng": 75.833519
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "440",
+    "district_name": "Khargone (West Nimar)",
+    "lat": 21.972396,
+    "lng": 75.721208
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "441",
+    "district_name": "Barwani",
+    "lat": 21.760543,
+    "lng": 74.976522
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "442",
+    "district_name": "Rajgarh",
+    "lat": 23.871028,
+    "lng": 76.713016
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "443",
+    "district_name": "Vidisha",
+    "lat": 23.843064,
+    "lng": 77.783275
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "444",
+    "district_name": "Bhopal",
+    "lat": 23.48626,
+    "lng": 77.411178
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "445",
+    "district_name": "Sehore",
+    "lat": 23.124203,
+    "lng": 77.237619
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "446",
+    "district_name": "Raisen",
+    "lat": 23.26734,
+    "lng": 78.08515
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "447",
+    "district_name": "Betul",
+    "lat": 21.882633,
+    "lng": 77.766706
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "448",
+    "district_name": "Harda",
+    "lat": 22.246185,
+    "lng": 77.138258
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "449",
+    "district_name": "Hoshangabad",
+    "lat": 22.602733,
+    "lng": 77.947327
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "450",
+    "district_name": "Katni",
+    "lat": 23.722843,
+    "lng": 80.386608
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "451",
+    "district_name": "Jabalpur",
+    "lat": 23.227602,
+    "lng": 79.961199
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "452",
+    "district_name": "Narsimhapur",
+    "lat": 22.92418,
+    "lng": 79.042018
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "453",
+    "district_name": "Dindori",
+    "lat": 22.907465,
+    "lng": 81.1038
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "454",
+    "district_name": "Mandla",
+    "lat": 22.690024,
+    "lng": 80.5605
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "455",
+    "district_name": "Chhindwara",
+    "lat": 22.133345,
+    "lng": 78.835446
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "456",
+    "district_name": "Seoni",
+    "lat": 22.280288,
+    "lng": 79.737889
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "457",
+    "district_name": "Balaghat",
+    "lat": 21.86078,
+    "lng": 80.270407
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "458",
+    "district_name": "Guna",
+    "lat": 24.502601,
+    "lng": 77.264568
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "459",
+    "district_name": "Ashoknagar",
+    "lat": 24.618173,
+    "lng": 77.881396
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "460",
+    "district_name": "Shahdol",
+    "lat": 23.653175,
+    "lng": 81.493834
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "461",
+    "district_name": "Anuppur",
+    "lat": 23.037843,
+    "lng": 81.661937
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "462",
+    "district_name": "Sidhi",
+    "lat": 24.214592,
+    "lng": 81.847968
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "463",
+    "district_name": "Singrauli",
+    "lat": 24.244493,
+    "lng": 82.346511
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "464",
+    "district_name": "Jhabua",
+    "lat": 22.886885,
+    "lng": 74.666311
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "465",
+    "district_name": "Alirajpur",
+    "lat": 22.289116,
+    "lng": 74.391297
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "466",
+    "district_name": "Khandwa (East Nimar)",
+    "lat": 21.982091,
+    "lng": 76.610746
+  },
+  {
+    "pc11_state_id": "23",
+    "pc11_district_id": "467",
+    "district_name": "Burhanpur",
+    "lat": 21.342737,
+    "lng": 76.374935
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "023",
+    "district_name": "Chamba",
+    "lat": 32.693186,
+    "lng": 76.338648
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "024",
+    "district_name": "Kangra",
+    "lat": 32.077355,
+    "lng": 76.335021
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "025",
+    "district_name": "Lahul & Spiti",
+    "lat": 32.500946,
+    "lng": 77.514853
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "026",
+    "district_name": "Kullu",
+    "lat": 31.878022,
+    "lng": 77.397649
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "027",
+    "district_name": "Mandi",
+    "lat": 31.654701,
+    "lng": 77.00493
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "028",
+    "district_name": "Hamirpur",
+    "lat": 31.654249,
+    "lng": 76.512861
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "029",
+    "district_name": "Una",
+    "lat": 31.582025,
+    "lng": 76.203
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "030",
+    "district_name": "Bilaspur",
+    "lat": 31.400878,
+    "lng": 76.660039
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "031",
+    "district_name": "Solan",
+    "lat": 31.057313,
+    "lng": 76.922277
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "032",
+    "district_name": "Sirmaur",
+    "lat": 30.694512,
+    "lng": 77.420473
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "033",
+    "district_name": "Shimla",
+    "lat": 31.241165,
+    "lng": 77.653383
+  },
+  {
+    "pc11_state_id": "02",
+    "pc11_district_id": "034",
+    "district_name": "Kinnaur",
+    "lat": 31.591652,
+    "lng": 78.378668
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "035",
+    "district_name": "Gurdaspur",
+    "lat": 32.052221,
+    "lng": 75.413372
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "036",
+    "district_name": "Kapurthala",
+    "lat": 31.388364,
+    "lng": 75.442667
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "037",
+    "district_name": "Jalandhar",
+    "lat": 31.293052,
+    "lng": 75.500716
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "038",
+    "district_name": "Hoshiarpur",
+    "lat": 31.608223,
+    "lng": 75.903112
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "039",
+    "district_name": "Shahid Bhagat Singh Nagar",
+    "lat": 31.126963,
+    "lng": 76.156551
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "040",
+    "district_name": "Fatehgarh Sahib",
+    "lat": 30.655426,
+    "lng": 76.349395
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "041",
+    "district_name": "Ludhiana",
+    "lat": 30.790546,
+    "lng": 75.826591
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "042",
+    "district_name": "Moga",
+    "lat": 30.797664,
+    "lng": 75.166087
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "043",
+    "district_name": "Firozpur",
+    "lat": 30.557935,
+    "lng": 74.505827
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "044",
+    "district_name": "Muktsar",
+    "lat": 30.290633,
+    "lng": 74.53866
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "045",
+    "district_name": "Faridkot",
+    "lat": 30.597959,
+    "lng": 74.76076
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "046",
+    "district_name": "Bathinda",
+    "lat": 30.184718,
+    "lng": 74.991365
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "047",
+    "district_name": "Mansa",
+    "lat": 29.881993,
+    "lng": 75.467576
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "048",
+    "district_name": "Patiala",
+    "lat": 30.212134,
+    "lng": 76.345287
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "049",
+    "district_name": "Amritsar",
+    "lat": 31.767126,
+    "lng": 74.94554
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "050",
+    "district_name": "Tarn Taran",
+    "lat": 31.322243,
+    "lng": 74.891232
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "051",
+    "district_name": "Rupnagar",
+    "lat": 31.090309,
+    "lng": 76.506358
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "052",
+    "district_name": "Sahibzada Ajit Singh Nagar",
+    "lat": 30.647891,
+    "lng": 76.729949
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "053",
+    "district_name": "Sangrur",
+    "lat": 30.212698,
+    "lng": 75.873311
+  },
+  {
+    "pc11_state_id": "03",
+    "pc11_district_id": "054",
+    "district_name": "Barnala",
+    "lat": 30.38265,
+    "lng": 75.480411
+  },
+  {
+    "pc11_state_id": "04",
+    "pc11_district_id": "055",
+    "district_name": "Chandigarh",
+    "lat": 30.73052,
+    "lng": 76.780991
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "056",
+    "district_name": "Uttarkashi",
+    "lat": 30.96464,
+    "lng": 78.60536
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "057",
+    "district_name": "Chamoli",
+    "lat": 30.505186,
+    "lng": 79.596377
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "058",
+    "district_name": "Rudraprayag",
+    "lat": 30.488133,
+    "lng": 79.101321
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "059",
+    "district_name": "Tehri Garhwal",
+    "lat": 30.46591,
+    "lng": 78.483716
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "060",
+    "district_name": "Dehradun",
+    "lat": 30.488636,
+    "lng": 77.93976
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "061",
+    "district_name": "Garhwal",
+    "lat": 29.847962,
+    "lng": 78.719978
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "062",
+    "district_name": "Pithoragarh",
+    "lat": 30.122049,
+    "lng": 80.431703
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "063",
+    "district_name": "Bageshwar",
+    "lat": 29.995132,
+    "lng": 79.815414
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "064",
+    "district_name": "Almora",
+    "lat": 29.69958,
+    "lng": 79.543435
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "065",
+    "district_name": "Champawat",
+    "lat": 29.216753,
+    "lng": 80.055069
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "066",
+    "district_name": "Nainital",
+    "lat": 29.30001,
+    "lng": 79.40022
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "067",
+    "district_name": "Udham Singh Nagar",
+    "lat": 29.055759,
+    "lng": 79.401164
+  },
+  {
+    "pc11_state_id": "05",
+    "pc11_district_id": "068",
+    "district_name": "Hardwar",
+    "lat": 29.909877,
+    "lng": 78.039744
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "069",
+    "district_name": "Panchkula",
+    "lat": 30.696762,
+    "lng": 76.972599
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "070",
+    "district_name": "Ambala",
+    "lat": 30.317423,
+    "lng": 76.881947
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "071",
+    "district_name": "Yamunanagar",
+    "lat": 30.195329,
+    "lng": 77.335821
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "072",
+    "district_name": "Kurukshetra",
+    "lat": 30.057394,
+    "lng": 76.774323
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "073",
+    "district_name": "Kaithal",
+    "lat": 29.857462,
+    "lng": 76.443452
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "074",
+    "district_name": "Karnal",
+    "lat": 29.713041,
+    "lng": 76.828724
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "075",
+    "district_name": "Panipat",
+    "lat": 29.339948,
+    "lng": 76.900843
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "076",
+    "district_name": "Sonipat",
+    "lat": 29.043002,
+    "lng": 76.854623
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "077",
+    "district_name": "Jind",
+    "lat": 29.457771,
+    "lng": 76.35265
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "078",
+    "district_name": "Fatehabad",
+    "lat": 29.53898,
+    "lng": 75.598967
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "079",
+    "district_name": "Sirsa",
+    "lat": 29.607569,
+    "lng": 74.886663
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "080",
+    "district_name": "Hisar",
+    "lat": 29.237029,
+    "lng": 75.821577
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "081",
+    "district_name": "Bhiwani",
+    "lat": 28.730619,
+    "lng": 75.968676
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "082",
+    "district_name": "Rohtak",
+    "lat": 28.883475,
+    "lng": 76.541837
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "083",
+    "district_name": "Jhajjar",
+    "lat": 28.597921,
+    "lng": 76.62157
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "084",
+    "district_name": "Mahendragarh",
+    "lat": 28.13556,
+    "lng": 76.129945
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "085",
+    "district_name": "Rewari",
+    "lat": 28.218045,
+    "lng": 76.5726
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "086",
+    "district_name": "Gurgaon",
+    "lat": 28.369972,
+    "lng": 76.952175
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "087",
+    "district_name": "Mewat",
+    "lat": 27.992316,
+    "lng": 77.097202
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "088",
+    "district_name": "Faridabad",
+    "lat": 28.361413,
+    "lng": 77.328021
+  },
+  {
+    "pc11_state_id": "06",
+    "pc11_district_id": "089",
+    "district_name": "Palwal",
+    "lat": 28.057575,
+    "lng": 77.338028
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "090",
+    "district_name": "North West",
+    "lat": 28.768611,
+    "lng": 77.088362
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "091",
+    "district_name": "North",
+    "lat": 28.716949,
+    "lng": 77.215115
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "092",
+    "district_name": "North East",
+    "lat": 28.722622,
+    "lng": 77.274766
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "093",
+    "district_name": "East",
+    "lat": 28.628704,
+    "lng": 77.289656
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "094",
+    "district_name": "New Delhi",
+    "lat": 28.612345,
+    "lng": 77.212661
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "095",
+    "district_name": "Central",
+    "lat": 28.641501,
+    "lng": 77.218901
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "096",
+    "district_name": "West",
+    "lat": 28.650861,
+    "lng": 77.063615
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "097",
+    "district_name": "South West",
+    "lat": 28.578536,
+    "lng": 77.013663
+  },
+  {
+    "pc11_state_id": "07",
+    "pc11_district_id": "098",
+    "district_name": "South",
+    "lat": 28.508358,
+    "lng": 77.223501
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "099",
+    "district_name": "Ganganagar",
+    "lat": 29.458968,
+    "lng": 73.476957
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "100",
+    "district_name": "Hanumangarh",
+    "lat": 29.363951,
+    "lng": 74.652784
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "101",
+    "district_name": "Bikaner",
+    "lat": 28.124667,
+    "lng": 73.134584
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "102",
+    "district_name": "Churu",
+    "lat": 28.204841,
+    "lng": 74.776964
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "103",
+    "district_name": "Jhunjhunun",
+    "lat": 28.085028,
+    "lng": 75.560393
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "104",
+    "district_name": "Alwar",
+    "lat": 27.641563,
+    "lng": 76.668882
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "105",
+    "district_name": "Bharatpur",
+    "lat": 27.262683,
+    "lng": 77.31831
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "106",
+    "district_name": "Dhaulpur",
+    "lat": 26.654383,
+    "lng": 77.753929
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "107",
+    "district_name": "Karauli",
+    "lat": 26.510474,
+    "lng": 76.940008
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "108",
+    "district_name": "Sawai Madhopur",
+    "lat": 26.237896,
+    "lng": 76.478548
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "109",
+    "district_name": "Dausa",
+    "lat": 26.808924,
+    "lng": 76.619155
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "110",
+    "district_name": "Jaipur",
+    "lat": 27.153361,
+    "lng": 75.607234
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "111",
+    "district_name": "Sikar",
+    "lat": 27.661827,
+    "lng": 75.38218
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "112",
+    "district_name": "Nagaur",
+    "lat": 27.057877,
+    "lng": 74.2194
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "113",
+    "district_name": "Jodhpur",
+    "lat": 26.734527,
+    "lng": 72.840502
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "114",
+    "district_name": "Jaisalmer",
+    "lat": 27.02167,
+    "lng": 70.917536
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "115",
+    "district_name": "Barmer",
+    "lat": 25.601567,
+    "lng": 71.465811
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "116",
+    "district_name": "Jalor",
+    "lat": 25.209265,
+    "lng": 72.163155
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "117",
+    "district_name": "Sirohi",
+    "lat": 24.818542,
+    "lng": 72.71223
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "118",
+    "district_name": "Pali",
+    "lat": 25.601637,
+    "lng": 73.591636
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "119",
+    "district_name": "Ajmer",
+    "lat": 26.311557,
+    "lng": 74.634767
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "120",
+    "district_name": "Tonk",
+    "lat": 26.120913,
+    "lng": 75.718804
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "121",
+    "district_name": "Bundi",
+    "lat": 25.432967,
+    "lng": 75.815955
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "122",
+    "district_name": "Bhilwara",
+    "lat": 25.489859,
+    "lng": 74.746231
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "123",
+    "district_name": "Rajsamand",
+    "lat": 25.377372,
+    "lng": 73.94548
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "124",
+    "district_name": "Dungarpur",
+    "lat": 23.673067,
+    "lng": 73.880023
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "125",
+    "district_name": "Banswara",
+    "lat": 23.494718,
+    "lng": 74.364241
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "126",
+    "district_name": "Chittaurgarh",
+    "lat": 24.701884,
+    "lng": 74.963004
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "127",
+    "district_name": "Kota",
+    "lat": 25.188929,
+    "lng": 76.098201
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "128",
+    "district_name": "Baran",
+    "lat": 24.920983,
+    "lng": 76.808238
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "129",
+    "district_name": "Jhalawar",
+    "lat": 24.311691,
+    "lng": 76.20495
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "130",
+    "district_name": "Udaipur",
+    "lat": 24.470974,
+    "lng": 73.718236
+  },
+  {
+    "pc11_state_id": "08",
+    "pc11_district_id": "131",
+    "district_name": "Pratapgarh",
+    "lat": 24.024423,
+    "lng": 74.604047
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "132",
+    "district_name": "Saharanpur",
+    "lat": 29.978966,
+    "lng": 77.534697
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "133",
+    "district_name": "Muzaffarnagar",
+    "lat": 29.448963,
+    "lng": 77.599238
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "134",
+    "district_name": "Bijnor",
+    "lat": 29.396074,
+    "lng": 78.438899
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "135",
+    "district_name": "Moradabad",
+    "lat": 28.793915,
+    "lng": 78.703856
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "136",
+    "district_name": "Rampur",
+    "lat": 28.791503,
+    "lng": 79.135977
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "137",
+    "district_name": "Jyotiba Phule Nagar",
+    "lat": 28.739896,
+    "lng": 78.355732
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "138",
+    "district_name": "Meerut",
+    "lat": 29.009803,
+    "lng": 77.769439
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "139",
+    "district_name": "Baghpat",
+    "lat": 29.029052,
+    "lng": 77.319454
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "140",
+    "district_name": "Ghaziabad",
+    "lat": 28.744413,
+    "lng": 77.697879
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "141",
+    "district_name": "Gautam Buddha Nagar",
+    "lat": 28.374048,
+    "lng": 77.519826
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "142",
+    "district_name": "Bulandshahr",
+    "lat": 28.385951,
+    "lng": 78.033284
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "143",
+    "district_name": "Aligarh",
+    "lat": 27.870382,
+    "lng": 78.039408
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "144",
+    "district_name": "Mahamaya Nagar",
+    "lat": 27.565771,
+    "lng": 78.19727
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "145",
+    "district_name": "Mathura",
+    "lat": 27.596626,
+    "lng": 77.63798
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "146",
+    "district_name": "Agra",
+    "lat": 27.077194,
+    "lng": 78.134944
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "147",
+    "district_name": "Firozabad",
+    "lat": 27.19584,
+    "lng": 78.514084
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "148",
+    "district_name": "Mainpuri",
+    "lat": 27.209546,
+    "lng": 79.065678
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "149",
+    "district_name": "Budaun",
+    "lat": 28.06806,
+    "lng": 78.889611
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "150",
+    "district_name": "Bareilly",
+    "lat": 28.448037,
+    "lng": 79.380404
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "151",
+    "district_name": "Pilibhit",
+    "lat": 28.496022,
+    "lng": 80.040111
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "152",
+    "district_name": "Shahjahanpur",
+    "lat": 27.915343,
+    "lng": 79.849758
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "153",
+    "district_name": "Kheri",
+    "lat": 28.182015,
+    "lng": 80.666036
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "154",
+    "district_name": "Sitapur",
+    "lat": 27.50079,
+    "lng": 80.860492
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "155",
+    "district_name": "Hardoi",
+    "lat": 27.337006,
+    "lng": 80.256498
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "156",
+    "district_name": "Unnao",
+    "lat": 26.578666,
+    "lng": 80.559296
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "157",
+    "district_name": "Lucknow",
+    "lat": 26.833281,
+    "lng": 80.887905
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "158",
+    "district_name": "Rae Bareli",
+    "lat": 26.209013,
+    "lng": 81.152818
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "159",
+    "district_name": "Farrukhabad",
+    "lat": 27.437358,
+    "lng": 79.431934
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "160",
+    "district_name": "Kannauj",
+    "lat": 27.003755,
+    "lng": 79.671274
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "161",
+    "district_name": "Etawah",
+    "lat": 26.71715,
+    "lng": 79.038513
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "162",
+    "district_name": "Auraiya",
+    "lat": 26.653363,
+    "lng": 79.481581
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "163",
+    "district_name": "Kanpur Dehat",
+    "lat": 26.461444,
+    "lng": 79.846931
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "164",
+    "district_name": "Kanpur Nagar",
+    "lat": 26.439088,
+    "lng": 80.231932
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "165",
+    "district_name": "Jalaun",
+    "lat": 26.106837,
+    "lng": 79.441082
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "166",
+    "district_name": "Jhansi",
+    "lat": 25.533855,
+    "lng": 78.858917
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "167",
+    "district_name": "Lalitpur",
+    "lat": 24.700123,
+    "lng": 78.586272
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "168",
+    "district_name": "Hamirpur",
+    "lat": 25.815961,
+    "lng": 79.861336
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "169",
+    "district_name": "Mahoba",
+    "lat": 25.337774,
+    "lng": 79.741059
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "170",
+    "district_name": "Banda",
+    "lat": 25.439839,
+    "lng": 80.571573
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "171",
+    "district_name": "Chitrakoot",
+    "lat": 25.220189,
+    "lng": 81.095908
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "172",
+    "district_name": "Fatehpur",
+    "lat": 25.835065,
+    "lng": 80.774459
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "173",
+    "district_name": "Pratapgarh",
+    "lat": 25.870528,
+    "lng": 81.879342
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "174",
+    "district_name": "Kaushambi",
+    "lat": 25.530738,
+    "lng": 81.481519
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "175",
+    "district_name": "Allahabad",
+    "lat": 25.281153,
+    "lng": 81.93581
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "176",
+    "district_name": "Bara Banki",
+    "lat": 26.942263,
+    "lng": 81.362
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "177",
+    "district_name": "Faizabad",
+    "lat": 26.644783,
+    "lng": 82.018354
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "178",
+    "district_name": "Ambedkar Nagar",
+    "lat": 26.407027,
+    "lng": 82.674086
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "179",
+    "district_name": "Sultanpur",
+    "lat": 26.324041,
+    "lng": 82.11926
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "180",
+    "district_name": "Bahraich",
+    "lat": 27.738682,
+    "lng": 81.51846
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "181",
+    "district_name": "Shrawasti",
+    "lat": 27.679472,
+    "lng": 81.913311
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "182",
+    "district_name": "Balrampur",
+    "lat": 27.447752,
+    "lng": 82.394716
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "183",
+    "district_name": "Gonda",
+    "lat": 27.108416,
+    "lng": 82.069274
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "184",
+    "district_name": "Siddharthnagar",
+    "lat": 27.261898,
+    "lng": 82.866791
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "185",
+    "district_name": "Basti",
+    "lat": 26.836342,
+    "lng": 82.606913
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "186",
+    "district_name": "Sant Kabir Nagar",
+    "lat": 26.765248,
+    "lng": 83.023107
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "187",
+    "district_name": "Mahrajganj",
+    "lat": 27.18779,
+    "lng": 83.526697
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "188",
+    "district_name": "Gorakhpur",
+    "lat": 26.67996,
+    "lng": 83.36993
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "189",
+    "district_name": "Kushinagar",
+    "lat": 26.920014,
+    "lng": 83.969064
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "190",
+    "district_name": "Deoria",
+    "lat": 26.42667,
+    "lng": 83.831136
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "191",
+    "district_name": "Azamgarh",
+    "lat": 26.024985,
+    "lng": 83.088434
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "192",
+    "district_name": "Mau",
+    "lat": 26.037533,
+    "lng": 83.557188
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "193",
+    "district_name": "Ballia",
+    "lat": 25.877176,
+    "lng": 84.159474
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "194",
+    "district_name": "Jaunpur",
+    "lat": 25.797819,
+    "lng": 82.614959
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "195",
+    "district_name": "Ghazipur",
+    "lat": 25.605181,
+    "lng": 83.513106
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "196",
+    "district_name": "Chandauli",
+    "lat": 25.128182,
+    "lng": 83.284087
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "197",
+    "district_name": "Varanasi",
+    "lat": 25.374686,
+    "lng": 82.927656
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "198",
+    "district_name": "Sant Ravidas Nagar (Bhadohi)",
+    "lat": 25.358155,
+    "lng": 82.449498
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "199",
+    "district_name": "Mirzapur",
+    "lat": 24.934038,
+    "lng": 82.635476
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "200",
+    "district_name": "Sonbhadra",
+    "lat": 24.399119,
+    "lng": 83.036185
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "201",
+    "district_name": "Etah",
+    "lat": 27.556886,
+    "lng": 78.721676
+  },
+  {
+    "pc11_state_id": "09",
+    "pc11_district_id": "202",
+    "district_name": "Kanshiram Nagar",
+    "lat": 27.78528,
+    "lng": 78.840813
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "203",
+    "district_name": "Pashchim Champaran",
+    "lat": 27.05187,
+    "lng": 84.291744
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "204",
+    "district_name": "Purba Champaran",
+    "lat": 26.6394,
+    "lng": 84.891718
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "205",
+    "district_name": "Sheohar",
+    "lat": 26.492921,
+    "lng": 85.29181
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "206",
+    "district_name": "Sitamarhi",
+    "lat": 26.570128,
+    "lng": 85.529961
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "207",
+    "district_name": "Madhubani",
+    "lat": 26.350366,
+    "lng": 86.240624
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "208",
+    "district_name": "Supaul",
+    "lat": 26.274928,
+    "lng": 86.762354
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "209",
+    "district_name": "Araria",
+    "lat": 26.262829,
+    "lng": 87.371603
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "210",
+    "district_name": "Kishanganj",
+    "lat": 26.245032,
+    "lng": 87.952537
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "211",
+    "district_name": "Purnia",
+    "lat": 25.772582,
+    "lng": 87.429583
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "212",
+    "district_name": "Katihar",
+    "lat": 25.541911,
+    "lng": 87.638333
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "213",
+    "district_name": "Madhepura",
+    "lat": 25.783685,
+    "lng": 86.875367
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "214",
+    "district_name": "Saharsa",
+    "lat": 25.829071,
+    "lng": 86.593734
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "215",
+    "district_name": "Darbhanga",
+    "lat": 26.074844,
+    "lng": 86.041523
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "216",
+    "district_name": "Muzaffarpur",
+    "lat": 26.150821,
+    "lng": 85.302622
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "217",
+    "district_name": "Gopalganj",
+    "lat": 26.421147,
+    "lng": 84.404965
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "218",
+    "district_name": "Siwan",
+    "lat": 26.129654,
+    "lng": 84.390907
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "219",
+    "district_name": "Saran",
+    "lat": 25.909803,
+    "lng": 84.833506
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "220",
+    "district_name": "Vaishali",
+    "lat": 25.754363,
+    "lng": 85.360438
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "221",
+    "district_name": "Samastipur",
+    "lat": 25.784558,
+    "lng": 85.95722
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "222",
+    "district_name": "Begusarai",
+    "lat": 25.51584,
+    "lng": 86.130583
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "223",
+    "district_name": "Khagaria",
+    "lat": 25.494543,
+    "lng": 86.565492
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "224",
+    "district_name": "Bhagalpur",
+    "lat": 25.283936,
+    "lng": 87.095408
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "225",
+    "district_name": "Banka",
+    "lat": 24.834398,
+    "lng": 86.830499
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "226",
+    "district_name": "Munger",
+    "lat": 25.219135,
+    "lng": 86.497445
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "227",
+    "district_name": "Lakhisarai",
+    "lat": 25.152019,
+    "lng": 86.144722
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "228",
+    "district_name": "Sheikhpura",
+    "lat": 25.12744,
+    "lng": 85.794877
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "229",
+    "district_name": "Nalanda",
+    "lat": 25.205781,
+    "lng": 85.528398
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "230",
+    "district_name": "Patna",
+    "lat": 25.46609,
+    "lng": 85.385961
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "231",
+    "district_name": "Bhojpur",
+    "lat": 25.461158,
+    "lng": 84.560134
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "232",
+    "district_name": "Buxar",
+    "lat": 25.510916,
+    "lng": 84.088194
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "233",
+    "district_name": "Kaimur (Bhabua)",
+    "lat": 24.976602,
+    "lng": 83.610868
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "234",
+    "district_name": "Rohtas",
+    "lat": 24.94177,
+    "lng": 83.981544
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "235",
+    "district_name": "Aurangabad",
+    "lat": 24.812143,
+    "lng": 84.373194
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "236",
+    "district_name": "Gaya",
+    "lat": 24.667441,
+    "lng": 84.843108
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "237",
+    "district_name": "Nawada",
+    "lat": 24.814953,
+    "lng": 85.662579
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "238",
+    "district_name": "Jamui",
+    "lat": 24.758334,
+    "lng": 86.218658
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "239",
+    "district_name": "Jehanabad",
+    "lat": 25.153324,
+    "lng": 85.019339
+  },
+  {
+    "pc11_state_id": "10",
+    "pc11_district_id": "240",
+    "district_name": "Arwal",
+    "lat": 25.181231,
+    "lng": 84.653882
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "327",
+    "district_name": "Darjiling",
+    "lat": 26.834438,
+    "lng": 88.433958
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "328",
+    "district_name": "Jalpaiguri",
+    "lat": 26.631564,
+    "lng": 89.133015
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "329",
+    "district_name": "Koch Bihar",
+    "lat": 26.234996,
+    "lng": 89.250626
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "330",
+    "district_name": "Uttar Dinajpur",
+    "lat": 25.873184,
+    "lng": 88.167923
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "331",
+    "district_name": "Dakshin Dinajpur",
+    "lat": 25.38671,
+    "lng": 88.585662
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "332",
+    "district_name": "Maldah",
+    "lat": 25.097781,
+    "lng": 88.114432
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "333",
+    "district_name": "Murshidabad",
+    "lat": 24.288804,
+    "lng": 88.278311
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "334",
+    "district_name": "Birbhum",
+    "lat": 24.060463,
+    "lng": 87.55774
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "335",
+    "district_name": "Barddhaman",
+    "lat": 23.408112,
+    "lng": 87.611584
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "336",
+    "district_name": "Nadia",
+    "lat": 23.487005,
+    "lng": 88.465781
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "337",
+    "district_name": "North Twenty Four Parganas",
+    "lat": 22.687379,
+    "lng": 88.714311
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "338",
+    "district_name": "Hugli",
+    "lat": 22.907303,
+    "lng": 88.005891
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "339",
+    "district_name": "Bankura",
+    "lat": 23.132475,
+    "lng": 87.186769
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "340",
+    "district_name": "Puruliya",
+    "lat": 23.201187,
+    "lng": 86.363502
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "341",
+    "district_name": "Haora",
+    "lat": 22.495792,
+    "lng": 88.103737
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "342",
+    "district_name": "Kolkata",
+    "lat": 22.538618,
+    "lng": 88.349079
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "343",
+    "district_name": "South Twenty Four Parganas",
+    "lat": 22.08172,
+    "lng": 88.59469
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "344",
+    "district_name": "Paschim Medinipur",
+    "lat": 22.357682,
+    "lng": 87.216868
+  },
+  {
+    "pc11_state_id": "19",
+    "pc11_district_id": "345",
+    "district_name": "Purba Medinipur",
+    "lat": 22.067923,
+    "lng": 87.804592
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "346",
+    "district_name": "Garhwa",
+    "lat": 24.050986,
+    "lng": 83.700572
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "347",
+    "district_name": "Chatra",
+    "lat": 24.097404,
+    "lng": 84.907087
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "348",
+    "district_name": "Kodarma",
+    "lat": 24.541984,
+    "lng": 85.611832
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "349",
+    "district_name": "Giridih",
+    "lat": 24.334989,
+    "lng": 86.118645
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "350",
+    "district_name": "Deoghar",
+    "lat": 24.331456,
+    "lng": 86.76265
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "351",
+    "district_name": "Godda",
+    "lat": 24.864175,
+    "lng": 87.305647
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "352",
+    "district_name": "Sahibganj",
+    "lat": 25.035064,
+    "lng": 87.677094
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "353",
+    "district_name": "Pakur",
+    "lat": 24.544056,
+    "lng": 87.65318
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "354",
+    "district_name": "Dhanbad",
+    "lat": 23.84566,
+    "lng": 86.467081
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "355",
+    "district_name": "Bokaro",
+    "lat": 23.697074,
+    "lng": 86.034575
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "356",
+    "district_name": "Lohardaga",
+    "lat": 23.472777,
+    "lng": 84.669872
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "357",
+    "district_name": "Purbi Singhbhum",
+    "lat": 22.609547,
+    "lng": 86.47878
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "358",
+    "district_name": "Palamu",
+    "lat": 24.222082,
+    "lng": 84.195586
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "359",
+    "district_name": "Latehar",
+    "lat": 23.692045,
+    "lng": 84.471024
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "360",
+    "district_name": "Hazaribagh",
+    "lat": 24.088239,
+    "lng": 85.47775
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "361",
+    "district_name": "Ramgarh",
+    "lat": 23.695216,
+    "lng": 85.543441
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "362",
+    "district_name": "Dumka",
+    "lat": 24.313872,
+    "lng": 87.293419
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "363",
+    "district_name": "Jamtara",
+    "lat": 23.980973,
+    "lng": 86.88268
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "364",
+    "district_name": "Ranchi",
+    "lat": 23.299462,
+    "lng": 85.384954
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "365",
+    "district_name": "Khunti",
+    "lat": 22.927886,
+    "lng": 85.290122
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "366",
+    "district_name": "Gumla",
+    "lat": 23.159549,
+    "lng": 84.524095
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "367",
+    "district_name": "Simdega",
+    "lat": 22.587665,
+    "lng": 84.545318
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "368",
+    "district_name": "Pashchimi Singhbhum",
+    "lat": 22.427934,
+    "lng": 85.514059
+  },
+  {
+    "pc11_state_id": "20",
+    "pc11_district_id": "369",
+    "district_name": "Saraikela-Kharsawan",
+    "lat": 22.817113,
+    "lng": 85.880691
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "001",
+    "district_name": "Kupwara",
+    "lat": 34.498507,
+    "lng": 74.145555
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "002",
+    "district_name": "Badgam",
+    "lat": 33.899617,
+    "lng": 74.655015
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "003",
+    "district_name": "Leh(Ladakh)",
+    "lat": 33.916793,
+    "lng": 77.880696
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "004",
+    "district_name": "Kargil",
+    "lat": 33.773125,
+    "lng": 76.360028
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "005",
+    "district_name": "Punch",
+    "lat": 33.707761,
+    "lng": 74.266868
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "006",
+    "district_name": "Rajouri",
+    "lat": 33.281026,
+    "lng": 74.325424
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "007",
+    "district_name": "Kathua",
+    "lat": 32.584311,
+    "lng": 75.552476
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "008",
+    "district_name": "Baramula",
+    "lat": 34.169956,
+    "lng": 74.287797
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "009",
+    "district_name": "Bandipore",
+    "lat": 34.445283,
+    "lng": 74.879641
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "010",
+    "district_name": "Srinagar",
+    "lat": 34.105556,
+    "lng": 74.895124
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "011",
+    "district_name": "Ganderbal",
+    "lat": 34.297908,
+    "lng": 75.060653
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "012",
+    "district_name": "Pulwama",
+    "lat": 33.951179,
+    "lng": 74.952029
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "013",
+    "district_name": "Shupiyan",
+    "lat": 33.729365,
+    "lng": 74.802413
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "014",
+    "district_name": "Anantnag",
+    "lat": 33.822672,
+    "lng": 75.317317
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "015",
+    "district_name": "Kulgam",
+    "lat": 33.620044,
+    "lng": 74.841609
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "016",
+    "district_name": "Doda",
+    "lat": 33.134611,
+    "lng": 75.749858
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "017",
+    "district_name": "Ramban",
+    "lat": 33.313146,
+    "lng": 75.197789
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "018",
+    "district_name": "Kishtwar",
+    "lat": 33.609978,
+    "lng": 76.06561
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "019",
+    "district_name": "Udhampur",
+    "lat": 32.90029,
+    "lng": 75.325454
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "020",
+    "district_name": "Reasi",
+    "lat": 33.202861,
+    "lng": 74.792534
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "021",
+    "district_name": "Jammu",
+    "lat": 32.773252,
+    "lng": 74.738146
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "022",
+    "district_name": "Samba",
+    "lat": 32.575651,
+    "lng": 75.090887
+  },
+  {
+    "pc11_state_id": "11",
+    "pc11_district_id": "241",
+    "district_name": "North  District",
+    "lat": 27.752658,
+    "lng": 88.50059
+  },
+  {
+    "pc11_state_id": "11",
+    "pc11_district_id": "242",
+    "district_name": "West District",
+    "lat": 27.3592,
+    "lng": 88.184986
+  },
+  {
+    "pc11_state_id": "11",
+    "pc11_district_id": "243",
+    "district_name": "South District",
+    "lat": 27.308592,
+    "lng": 88.402884
+  },
+  {
+    "pc11_state_id": "11",
+    "pc11_district_id": "244",
+    "district_name": "East District",
+    "lat": 27.282408,
+    "lng": 88.678598
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "245",
+    "district_name": "Tawang",
+    "lat": 27.663635,
+    "lng": 92.007738
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "246",
+    "district_name": "West Kameng",
+    "lat": 27.321726,
+    "lng": 92.424828
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "247",
+    "district_name": "East Kameng",
+    "lat": 27.437968,
+    "lng": 92.924302
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "248",
+    "district_name": "Papum Pare",
+    "lat": 27.284332,
+    "lng": 93.713514
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "249",
+    "district_name": "Upper Subansiri",
+    "lat": 28.237401,
+    "lng": 93.854315
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "250",
+    "district_name": "West Siang",
+    "lat": 28.300889,
+    "lng": 94.335184
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "251",
+    "district_name": "East Siang",
+    "lat": 28.157274,
+    "lng": 95.160223
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "252",
+    "district_name": "Upper Siang",
+    "lat": 28.741037,
+    "lng": 94.795248
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "253",
+    "district_name": "Changlang",
+    "lat": 27.275051,
+    "lng": 96.398144
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "254",
+    "district_name": "Tirap",
+    "lat": 26.961079,
+    "lng": 95.442656
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "255",
+    "district_name": "Lower Subansiri",
+    "lat": 27.637652,
+    "lng": 93.943129
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "256",
+    "district_name": "Kurung Kumey",
+    "lat": 27.993253,
+    "lng": 93.306854
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "257",
+    "district_name": "Dibang Valley",
+    "lat": 28.871651,
+    "lng": 95.915048
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "258",
+    "district_name": "Lower Dibang Valley",
+    "lat": 28.235324,
+    "lng": 95.830085
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "259",
+    "district_name": "Lohit",
+    "lat": 27.951162,
+    "lng": 96.239177
+  },
+  {
+    "pc11_state_id": "12",
+    "pc11_district_id": "260",
+    "district_name": "Anjaw",
+    "lat": 28.040552,
+    "lng": 96.841755
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "261",
+    "district_name": "Mon",
+    "lat": 26.669286,
+    "lng": 95.010434
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "262",
+    "district_name": "Mokokchung",
+    "lat": 26.480758,
+    "lng": 94.527848
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "263",
+    "district_name": "Zunheboto",
+    "lat": 26.014055,
+    "lng": 94.46082
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "264",
+    "district_name": "Wokha",
+    "lat": 26.268752,
+    "lng": 94.171814
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "265",
+    "district_name": "Dimapur",
+    "lat": 25.819302,
+    "lng": 93.774118
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "266",
+    "district_name": "Phek",
+    "lat": 25.64864,
+    "lng": 94.545348
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "267",
+    "district_name": "Tuensang",
+    "lat": 26.172467,
+    "lng": 94.871123
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "268",
+    "district_name": "Longleng",
+    "lat": 26.58666,
+    "lng": 94.79153
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "269",
+    "district_name": "Kiphire",
+    "lat": 25.80142,
+    "lng": 94.811393
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "270",
+    "district_name": "Kohima",
+    "lat": 25.771835,
+    "lng": 94.085269
+  },
+  {
+    "pc11_state_id": "13",
+    "pc11_district_id": "271",
+    "district_name": "Peren",
+    "lat": 25.447183,
+    "lng": 93.620015
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "272",
+    "district_name": "Senapati",
+    "lat": 25.119944,
+    "lng": 94.086948
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "273",
+    "district_name": "Tamenglong",
+    "lat": 24.985591,
+    "lng": 93.542948
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "274",
+    "district_name": "Churachandpur",
+    "lat": 24.323884,
+    "lng": 93.424847
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "275",
+    "district_name": "Bishnupur",
+    "lat": 24.522984,
+    "lng": 93.804281
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "276",
+    "district_name": "Thoubal",
+    "lat": 24.4904,
+    "lng": 93.997877
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "277",
+    "district_name": "Imphal West",
+    "lat": 24.765419,
+    "lng": 93.894441
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "278",
+    "district_name": "Imphal East",
+    "lat": 24.822394,
+    "lng": 93.607279
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "279",
+    "district_name": "Ukhrul",
+    "lat": 25.088208,
+    "lng": 94.442817
+  },
+  {
+    "pc11_state_id": "14",
+    "pc11_district_id": "280",
+    "district_name": "Chandel",
+    "lat": 24.244554,
+    "lng": 94.075427
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "281",
+    "district_name": "Mamit",
+    "lat": 23.756822,
+    "lng": 92.463327
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "282",
+    "district_name": "Kolasib",
+    "lat": 24.188236,
+    "lng": 92.711976
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "283",
+    "district_name": "Aizawl",
+    "lat": 23.863967,
+    "lng": 92.907166
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "284",
+    "district_name": "Champhai",
+    "lat": 23.548032,
+    "lng": 93.221476
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "285",
+    "district_name": "Serchhip",
+    "lat": 23.284091,
+    "lng": 92.930425
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "286",
+    "district_name": "Lunglei",
+    "lat": 22.945204,
+    "lng": 92.759821
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "287",
+    "district_name": "Lawngtlai",
+    "lat": 22.390827,
+    "lng": 92.825461
+  },
+  {
+    "pc11_state_id": "15",
+    "pc11_district_id": "288",
+    "district_name": "Saiha",
+    "lat": 22.2676,
+    "lng": 93.01268
+  },
+  {
+    "pc11_state_id": "16",
+    "pc11_district_id": "289",
+    "district_name": "West Tripura",
+    "lat": 23.752277,
+    "lng": 91.468699
+  },
+  {
+    "pc11_state_id": "16",
+    "pc11_district_id": "290",
+    "district_name": "South Tripura",
+    "lat": 23.357601,
+    "lng": 91.59755
+  },
+  {
+    "pc11_state_id": "16",
+    "pc11_district_id": "291",
+    "district_name": "Dhalai",
+    "lat": 23.837334,
+    "lng": 91.958071
+  },
+  {
+    "pc11_state_id": "16",
+    "pc11_district_id": "292",
+    "district_name": "North Tripura",
+    "lat": 24.093372,
+    "lng": 92.12293
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "293",
+    "district_name": "West Garo Hills",
+    "lat": 25.606075,
+    "lng": 90.125234
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "294",
+    "district_name": "East Garo Hills",
+    "lat": 25.711537,
+    "lng": 90.681597
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "295",
+    "district_name": "South Garo Hills",
+    "lat": 25.354842,
+    "lng": 90.614808
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "296",
+    "district_name": "West Khasi Hills",
+    "lat": 25.515868,
+    "lng": 91.289219
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "297",
+    "district_name": "Ribhoi",
+    "lat": 25.865006,
+    "lng": 91.808416
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "298",
+    "district_name": "East Khasi Hills",
+    "lat": 25.405757,
+    "lng": 91.75378
+  },
+  {
+    "pc11_state_id": "17",
+    "pc11_district_id": "299",
+    "district_name": "Jaintia Hills",
+    "lat": 25.39157,
+    "lng": 92.393608
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "300",
+    "district_name": "Kokrajhar",
+    "lat": 26.487774,
+    "lng": 90.130299
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "301",
+    "district_name": "Dhubri",
+    "lat": 25.925306,
+    "lng": 90.085312
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "302",
+    "district_name": "Goalpara",
+    "lat": 26.052195,
+    "lng": 90.61209
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "303",
+    "district_name": "Barpeta",
+    "lat": 26.369714,
+    "lng": 90.971015
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "304",
+    "district_name": "Morigaon",
+    "lat": 26.290942,
+    "lng": 92.282652
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "305",
+    "district_name": "Nagaon",
+    "lat": 26.20543,
+    "lng": 92.85662
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "306",
+    "district_name": "Sonitpur",
+    "lat": 26.756549,
+    "lng": 93.050185
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "307",
+    "district_name": "Lakhimpur",
+    "lat": 27.173465,
+    "lng": 94.143126
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "308",
+    "district_name": "Dhemaji",
+    "lat": 27.578069,
+    "lng": 94.862865
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "309",
+    "district_name": "Tinsukia",
+    "lat": 27.60316,
+    "lng": 95.619674
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "310",
+    "district_name": "Dibrugarh",
+    "lat": 27.400491,
+    "lng": 95.024851
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "311",
+    "district_name": "Sivasagar",
+    "lat": 26.994235,
+    "lng": 94.888033
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "312",
+    "district_name": "Jorhat",
+    "lat": 26.767273,
+    "lng": 94.144069
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "313",
+    "district_name": "Golaghat",
+    "lat": 26.319194,
+    "lng": 93.731358
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "314",
+    "district_name": "Karbi Anglong",
+    "lat": 26.067532,
+    "lng": 93.018629
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "315",
+    "district_name": "Dima Hasao",
+    "lat": 25.391858,
+    "lng": 92.998307
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "316",
+    "district_name": "Cachar",
+    "lat": 24.756822,
+    "lng": 92.835225
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "317",
+    "district_name": "Karimganj",
+    "lat": 24.583361,
+    "lng": 92.401158
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "318",
+    "district_name": "Hailakandi",
+    "lat": 24.506902,
+    "lng": 92.601139
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "319",
+    "district_name": "Bongaigaon",
+    "lat": 26.352525,
+    "lng": 90.619675
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "320",
+    "district_name": "Chirang",
+    "lat": 26.640925,
+    "lng": 90.640605
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "321",
+    "district_name": "Kamrup",
+    "lat": 26.133754,
+    "lng": 91.393173
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "322",
+    "district_name": "Kamrup Metropolitan",
+    "lat": 26.134655,
+    "lng": 91.867113
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "323",
+    "district_name": "Nalbari",
+    "lat": 26.367231,
+    "lng": 91.410176
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "324",
+    "district_name": "Baksa",
+    "lat": 26.622713,
+    "lng": 91.341229
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "325",
+    "district_name": "Darrang",
+    "lat": 26.431685,
+    "lng": 92.065316
+  },
+  {
+    "pc11_state_id": "18",
+    "pc11_district_id": "326",
+    "district_name": "Udalguri",
+    "lat": 26.705123,
+    "lng": 92.059151
+  },
+  {
+    "pc11_state_id": "25",
+    "pc11_district_id": "494",
+    "district_name": "Diu",
+    "lat": 20.720442,
+    "lng": 70.938693
+  },
+  {
+    "pc11_state_id": "25",
+    "pc11_district_id": "495",
+    "district_name": "Daman",
+    "lat": 20.416812,
+    "lng": 72.862048
+  },
+  {
+    "pc11_state_id": "26",
+    "pc11_district_id": "496",
+    "district_name": "Dadra & Nagar Haveli",
+    "lat": 20.206259,
+    "lng": 73.075733
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "497",
+    "district_name": "Nandurbar",
+    "lat": 21.517849,
+    "lng": 74.184844
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "498",
+    "district_name": "Dhule",
+    "lat": 21.129774,
+    "lng": 74.5212
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "499",
+    "district_name": "Jalgaon",
+    "lat": 20.843974,
+    "lng": 75.577924
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "500",
+    "district_name": "Buldana",
+    "lat": 20.567205,
+    "lng": 76.380073
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "501",
+    "district_name": "Akola",
+    "lat": 20.760954,
+    "lng": 77.156186
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "502",
+    "district_name": "Washim",
+    "lat": 20.30251,
+    "lng": 77.141731
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "503",
+    "district_name": "Amravati",
+    "lat": 21.157984,
+    "lng": 77.536216
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "504",
+    "district_name": "Wardha",
+    "lat": 20.826525,
+    "lng": 78.636226
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "505",
+    "district_name": "Nagpur",
+    "lat": 21.154071,
+    "lng": 78.951377
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "506",
+    "district_name": "Bhandara",
+    "lat": 21.121735,
+    "lng": 79.774306
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "507",
+    "district_name": "Gondiya",
+    "lat": 21.143306,
+    "lng": 80.235041
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "508",
+    "district_name": "Gadchiroli",
+    "lat": 19.762584,
+    "lng": 80.316083
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "509",
+    "district_name": "Chandrapur",
+    "lat": 20.098385,
+    "lng": 79.395151
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "510",
+    "district_name": "Yavatmal",
+    "lat": 20.06548,
+    "lng": 78.2234
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "511",
+    "district_name": "Nanded",
+    "lat": 19.08989,
+    "lng": 77.636338
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "512",
+    "district_name": "Hingoli",
+    "lat": 19.63058,
+    "lng": 76.996545
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "513",
+    "district_name": "Parbhani",
+    "lat": 19.286781,
+    "lng": 76.702556
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "514",
+    "district_name": "Jalna",
+    "lat": 19.914726,
+    "lng": 76.055726
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "515",
+    "district_name": "Aurangabad",
+    "lat": 20.021309,
+    "lng": 75.315965
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "516",
+    "district_name": "Nashik",
+    "lat": 20.222612,
+    "lng": 74.091115
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "517",
+    "district_name": "Thane",
+    "lat": 19.607267,
+    "lng": 73.219388
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "518",
+    "district_name": "Mumbai Suburban",
+    "lat": 19.131982,
+    "lng": 72.869158
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "519",
+    "district_name": "Mumbai",
+    "lat": 18.969864,
+    "lng": 72.848061
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "520",
+    "district_name": "Raigarh",
+    "lat": 18.492281,
+    "lng": 73.235748
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "521",
+    "district_name": "Pune",
+    "lat": 18.645533,
+    "lng": 74.243241
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "522",
+    "district_name": "Ahmadnagar",
+    "lat": 19.159186,
+    "lng": 74.603384
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "523",
+    "district_name": "Bid",
+    "lat": 18.991963,
+    "lng": 75.782466
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "524",
+    "district_name": "Latur",
+    "lat": 18.351337,
+    "lng": 76.767958
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "525",
+    "district_name": "Osmanabad",
+    "lat": 18.169741,
+    "lng": 76.035173
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "526",
+    "district_name": "Solapur",
+    "lat": 17.848609,
+    "lng": 75.517104
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "527",
+    "district_name": "Satara",
+    "lat": 17.630167,
+    "lng": 74.226874
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "528",
+    "district_name": "Ratnagiri",
+    "lat": 17.282972,
+    "lng": 73.443265
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "529",
+    "district_name": "Sindhudurg",
+    "lat": 16.136455,
+    "lng": 73.759846
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "530",
+    "district_name": "Kolhapur",
+    "lat": 16.460501,
+    "lng": 74.193205
+  },
+  {
+    "pc11_state_id": "27",
+    "pc11_district_id": "531",
+    "district_name": "Sangli",
+    "lat": 17.154827,
+    "lng": 74.685957
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "532",
+    "district_name": "Adilabad",
+    "lat": 19.293688,
+    "lng": 78.866537
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "533",
+    "district_name": "Nizamabad",
+    "lat": 18.539897,
+    "lng": 78.093834
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "534",
+    "district_name": "Karimnagar",
+    "lat": 18.530413,
+    "lng": 79.427763
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "535",
+    "district_name": "Medak",
+    "lat": 17.861063,
+    "lng": 78.291094
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "536",
+    "district_name": "Hyderabad",
+    "lat": 17.39665,
+    "lng": 78.470228
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "537",
+    "district_name": "Rangareddy",
+    "lat": 17.287459,
+    "lng": 78.118418
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "538",
+    "district_name": "Mahbubnagar",
+    "lat": 16.533425,
+    "lng": 78.248283
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "539",
+    "district_name": "Nalgonda",
+    "lat": 17.083869,
+    "lng": 79.371156
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "540",
+    "district_name": "Warangal",
+    "lat": 17.965627,
+    "lng": 79.754074
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "541",
+    "district_name": "Khammam",
+    "lat": 17.69737,
+    "lng": 80.801264
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "542",
+    "district_name": "Srikakulam",
+    "lat": 18.618016,
+    "lng": 84.146983
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "543",
+    "district_name": "Vizianagaram",
+    "lat": 18.502579,
+    "lng": 83.41329
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "544",
+    "district_name": "Visakhapatnam",
+    "lat": 17.895842,
+    "lng": 82.693871
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "545",
+    "district_name": "East Godavari",
+    "lat": 17.165648,
+    "lng": 82.039911
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "546",
+    "district_name": "West Godavari",
+    "lat": 16.900143,
+    "lng": 81.363443
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "547",
+    "district_name": "Krishna",
+    "lat": 16.431001,
+    "lng": 80.777168
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "548",
+    "district_name": "Guntur",
+    "lat": 16.269425,
+    "lng": 80.056981
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "549",
+    "district_name": "Prakasam",
+    "lat": 15.628462,
+    "lng": 79.617302
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "550",
+    "district_name": "Sri Potti Sriramulu Nellore",
+    "lat": 14.296958,
+    "lng": 79.676476
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "551",
+    "district_name": "Y.S.R.",
+    "lat": 14.481966,
+    "lng": 78.709252
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "552",
+    "district_name": "Kurnool",
+    "lat": 15.529351,
+    "lng": 77.949488
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "553",
+    "district_name": "Anantapur",
+    "lat": 14.462779,
+    "lng": 77.610644
+  },
+  {
+    "pc11_state_id": "28",
+    "pc11_district_id": "554",
+    "district_name": "Chittoor",
+    "lat": 13.30712,
+    "lng": 79.053188
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "555",
+    "district_name": "Belgaum",
+    "lat": 16.155514,
+    "lng": 74.775904
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "556",
+    "district_name": "Bagalkot",
+    "lat": 16.290628,
+    "lng": 75.659255
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "557",
+    "district_name": "Bijapur",
+    "lat": 16.814884,
+    "lng": 75.901615
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "558",
+    "district_name": "Bidar",
+    "lat": 18.0301,
+    "lng": 77.17258
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "559",
+    "district_name": "Raichur",
+    "lat": 16.052058,
+    "lng": 76.913895
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "560",
+    "district_name": "Koppal",
+    "lat": 15.573442,
+    "lng": 76.295494
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "561",
+    "district_name": "Gadag",
+    "lat": 15.414367,
+    "lng": 75.660867
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "562",
+    "district_name": "Dharwad",
+    "lat": 15.3711,
+    "lng": 75.140538
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "563",
+    "district_name": "Uttara Kannada",
+    "lat": 14.725487,
+    "lng": 74.574895
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "564",
+    "district_name": "Haveri",
+    "lat": 14.720839,
+    "lng": 75.418637
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "565",
+    "district_name": "Bellary",
+    "lat": 15.198468,
+    "lng": 76.419569
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "566",
+    "district_name": "Chitradurga",
+    "lat": 14.304975,
+    "lng": 76.52441
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "567",
+    "district_name": "Davanagere",
+    "lat": 14.37019,
+    "lng": 75.966863
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "568",
+    "district_name": "Shimoga",
+    "lat": 14.055329,
+    "lng": 75.252595
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "569",
+    "district_name": "Udupi",
+    "lat": 13.526739,
+    "lng": 74.893263
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "570",
+    "district_name": "Chikmagalur",
+    "lat": 13.404019,
+    "lng": 75.7261
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "571",
+    "district_name": "Tumkur",
+    "lat": 13.545118,
+    "lng": 76.93162
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "572",
+    "district_name": "Bangalore",
+    "lat": 12.944126,
+    "lng": 77.579165
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "573",
+    "district_name": "Mandya",
+    "lat": 12.637457,
+    "lng": 76.829785
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "574",
+    "district_name": "Hassan",
+    "lat": 13.031856,
+    "lng": 76.090907
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "575",
+    "district_name": "Dakshina Kannada",
+    "lat": 12.822987,
+    "lng": 75.223869
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "576",
+    "district_name": "Kodagu",
+    "lat": 12.383873,
+    "lng": 75.775966
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "577",
+    "district_name": "Mysore",
+    "lat": 12.198222,
+    "lng": 76.522893
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "578",
+    "district_name": "Chamarajanagar",
+    "lat": 11.956311,
+    "lng": 77.092264
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "579",
+    "district_name": "Gulbarga",
+    "lat": 17.235859,
+    "lng": 76.889201
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "580",
+    "district_name": "Yadgir",
+    "lat": 16.574737,
+    "lng": 76.890815
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "581",
+    "district_name": "Kolar",
+    "lat": 13.174269,
+    "lng": 78.210757
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "582",
+    "district_name": "Chikkaballapura",
+    "lat": 13.591231,
+    "lng": 77.786389
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "583",
+    "district_name": "Bangalore Rural",
+    "lat": 13.182053,
+    "lng": 77.57731
+  },
+  {
+    "pc11_state_id": "29",
+    "pc11_district_id": "584",
+    "district_name": "Ramanagara",
+    "lat": 12.720007,
+    "lng": 77.355097
+  },
+  {
+    "pc11_state_id": "30",
+    "pc11_district_id": "585",
+    "district_name": "North Goa",
+    "lat": 15.534706,
+    "lng": 73.979375
+  },
+  {
+    "pc11_state_id": "30",
+    "pc11_district_id": "586",
+    "district_name": "South Goa",
+    "lat": 15.122673,
+    "lng": 74.048368
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "588",
+    "district_name": "Kasaragod",
+    "lat": 12.419525,
+    "lng": 75.147233
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "589",
+    "district_name": "Kannur",
+    "lat": 11.985958,
+    "lng": 75.552299
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "590",
+    "district_name": "Wayanad",
+    "lat": 11.715227,
+    "lng": 76.109065
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "591",
+    "district_name": "Kozhikode",
+    "lat": 11.464937,
+    "lng": 75.841105
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "592",
+    "district_name": "Malappuram",
+    "lat": 11.107209,
+    "lng": 76.185863
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "593",
+    "district_name": "Palakkad",
+    "lat": 10.786532,
+    "lng": 76.46763
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "594",
+    "district_name": "Thrissur",
+    "lat": 10.478573,
+    "lng": 76.428485
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "595",
+    "district_name": "Ernakulam",
+    "lat": 10.044927,
+    "lng": 76.626705
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "596",
+    "district_name": "Idukki",
+    "lat": 9.81228,
+    "lng": 77.016431
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "597",
+    "district_name": "Kottayam",
+    "lat": 9.62887,
+    "lng": 76.674156
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "598",
+    "district_name": "Alappuzha",
+    "lat": 9.500511,
+    "lng": 76.48482
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "599",
+    "district_name": "Pathanamthitta",
+    "lat": 9.276556,
+    "lng": 76.877011
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "600",
+    "district_name": "Kollam",
+    "lat": 8.9686,
+    "lng": 76.863831
+  },
+  {
+    "pc11_state_id": "32",
+    "pc11_district_id": "601",
+    "district_name": "Thiruvananthapuram",
+    "lat": 8.57857,
+    "lng": 76.977713
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "602",
+    "district_name": "Thiruvallur",
+    "lat": 13.256635,
+    "lng": 79.819717
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "603",
+    "district_name": "Chennai",
+    "lat": 13.056905,
+    "lng": 80.247211
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "604",
+    "district_name": "Kancheepuram",
+    "lat": 12.639724,
+    "lng": 79.912396
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "605",
+    "district_name": "Vellore",
+    "lat": 12.731288,
+    "lng": 79.103956
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "606",
+    "district_name": "Tiruvannamalai",
+    "lat": 12.428345,
+    "lng": 79.193597
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "607",
+    "district_name": "Viluppuram",
+    "lat": 11.977814,
+    "lng": 79.317453
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "608",
+    "district_name": "Salem",
+    "lat": 11.646588,
+    "lng": 78.246764
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "609",
+    "district_name": "Namakkal",
+    "lat": 11.301364,
+    "lng": 78.084471
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "610",
+    "district_name": "Erode",
+    "lat": 11.487471,
+    "lng": 77.382297
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "611",
+    "district_name": "The Nilgiris",
+    "lat": 11.443535,
+    "lng": 76.623047
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "612",
+    "district_name": "Dindigul",
+    "lat": 10.424916,
+    "lng": 77.801331
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "613",
+    "district_name": "Karur",
+    "lat": 10.819224,
+    "lng": 78.169799
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "614",
+    "district_name": "Tiruchirappalli",
+    "lat": 10.85497,
+    "lng": 78.588471
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "615",
+    "district_name": "Perambalur",
+    "lat": 11.288553,
+    "lng": 78.901713
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "616",
+    "district_name": "Ariyalur",
+    "lat": 11.150769,
+    "lng": 79.222226
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "617",
+    "district_name": "Cuddalore",
+    "lat": 11.526783,
+    "lng": 79.343285
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "618",
+    "district_name": "Nagapattinam",
+    "lat": 10.848258,
+    "lng": 79.695663
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "619",
+    "district_name": "Thiruvarur",
+    "lat": 10.647995,
+    "lng": 79.515754
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "620",
+    "district_name": "Thanjavur",
+    "lat": 10.661242,
+    "lng": 79.176085
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "621",
+    "district_name": "Pudukkottai",
+    "lat": 10.289536,
+    "lng": 78.843851
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "622",
+    "district_name": "Sivaganga",
+    "lat": 9.96904,
+    "lng": 78.56778
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "623",
+    "district_name": "Madurai",
+    "lat": 9.938366,
+    "lng": 77.962694
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "624",
+    "district_name": "Theni",
+    "lat": 9.869094,
+    "lng": 77.448032
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "625",
+    "district_name": "Virudhunagar",
+    "lat": 9.496298,
+    "lng": 77.873844
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "626",
+    "district_name": "Ramanathapuram",
+    "lat": 9.514752,
+    "lng": 78.825069
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "627",
+    "district_name": "Thoothukkudi",
+    "lat": 8.846758,
+    "lng": 78.031313
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "628",
+    "district_name": "Tirunelveli",
+    "lat": 8.773855,
+    "lng": 77.562333
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "629",
+    "district_name": "Kanniyakumari",
+    "lat": 8.326115,
+    "lng": 77.340384
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "630",
+    "district_name": "Dharmapuri",
+    "lat": 12.14424,
+    "lng": 78.209295
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "631",
+    "district_name": "Krishnagiri",
+    "lat": 12.515646,
+    "lng": 78.072093
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "632",
+    "district_name": "Coimbatore",
+    "lat": 10.812915,
+    "lng": 76.978459
+  },
+  {
+    "pc11_state_id": "33",
+    "pc11_district_id": "633",
+    "district_name": "Tiruppur",
+    "lat": 10.788885,
+    "lng": 77.467341
+  },
+  {
+    "pc11_state_id": "34",
+    "pc11_district_id": "634",
+    "district_name": "Yanam",
+    "lat": 16.725741,
+    "lng": 82.248649
+  },
+  {
+    "pc11_state_id": "34",
+    "pc11_district_id": "635",
+    "district_name": "Puducherry",
+    "lat": 11.913217,
+    "lng": 79.736661
+  },
+  {
+    "pc11_state_id": "34",
+    "pc11_district_id": "636",
+    "district_name": "Mahe",
+    "lat": 11.728432,
+    "lng": 75.539957
+  },
+  {
+    "pc11_state_id": "34",
+    "pc11_district_id": "637",
+    "district_name": "Karaikal",
+    "lat": 10.91621,
+    "lng": 79.786747
+  },
+  {
+    "pc11_state_id": "31",
+    "pc11_district_id": "587",
+    "district_name": "Lakshadweep",
+    "lat": 9.986957,
+    "lng": 72.93275
+  },
+  {
+    "pc11_state_id": "35",
+    "pc11_district_id": "638",
+    "district_name": "Nicobars",
+    "lat": 8.006447,
+    "lng": 93.335759
+  },
+  {
+    "pc11_state_id": "35",
+    "pc11_district_id": "639",
+    "district_name": "North  & Middle Andaman",
+    "lat": 12.872277,
+    "lng": 92.957604
+  },
+  {
+    "pc11_state_id": "35",
+    "pc11_district_id": "640",
+    "district_name": "South Andaman",
+    "lat": 11.385648,
+    "lng": 92.661117
+  },
+  {
+    "pc11_state_id": "01",
+    "pc11_district_id": "000",
+    "district_name": null,
+    "lat": 35.539134,
+    "lng": 76.429055
+  }
+]

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:03aecd1bf15ca36aeadfeae19552da1fcca9c8ca138f0ebb3bb6ca368c570f17
-size 600
+{"Civil Lines": [{"name": "Salem Pur Majra Burari", "lat": 28.770729, "lng": 77.205223}, {"name": "Badar Pur Majra Burari", "lat": 28.779766, "lng": 77.211776}, {"name": "Jagat Pur ilaqa Shahdara (un-inhabited)", "lat": 28.735554, "lng": 77.237104}, {"name": "Jagat Pur ilaqa Delhi", "lat": 28.737881, "lng": 77.227886}, {"name": "Mukand Pur (CT)", "lat": 28.737383, "lng": 77.186254}, {"name": "Kamal Pur Majra Burari (CT)", "lat": 28.74504, "lng": 77.194076}, {"name": "Burari  (CT)", "lat": 28.753981, "lng": 77.201898}, {"name": "Jharoda Majra Burari  (CT)", "lat": 28.732059, "lng": 77.209315}]}

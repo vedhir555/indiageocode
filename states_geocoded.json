@@ -1,3 +1,212 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:683c0592155020887f14beaae87b2f2f930a527167620c7504190f67d8660239
-size 3895
+[
+  {
+    "pc11_state_id": "01",
+    "state_name": "Jammu and Kashmir",
+    "lat": 34.678224,
+    "lng": 76.429055
+  },
+  {
+    "pc11_state_id": "02",
+    "state_name": "Himachal Pradesh",
+    "lat": 31.810196,
+    "lng": 77.303262
+  },
+  {
+    "pc11_state_id": "03",
+    "state_name": "Punjab",
+    "lat": 31.033335,
+    "lng": 75.412074
+  },
+  {
+    "pc11_state_id": "04",
+    "state_name": "Chandigarh",
+    "lat": 30.73052,
+    "lng": 76.780991
+  },
+  {
+    "pc11_state_id": "05",
+    "state_name": "Uttarakhand",
+    "lat": 30.095937,
+    "lng": 79.306336
+  },
+  {
+    "pc11_state_id": "06",
+    "state_name": "Haryana",
+    "lat": 29.289417,
+    "lng": 76.035828
+  },
+  {
+    "pc11_state_id": "07",
+    "state_name": "NCT Of Delhi",
+    "lat": 28.642782,
+    "lng": 77.089418
+  },
+  {
+    "pc11_state_id": "08",
+    "state_name": "Rajasthan",
+    "lat": 26.632651,
+    "lng": 73.878714
+  },
+  {
+    "pc11_state_id": "09",
+    "state_name": "Uttar Pradesh",
+    "lat": 27.128207,
+    "lng": 80.865747
+  },
+  {
+    "pc11_state_id": "10",
+    "state_name": "Bihar",
+    "lat": 25.889794,
+    "lng": 85.809579
+  },
+  {
+    "pc11_state_id": "11",
+    "state_name": "Sikkim",
+    "lat": 27.604748,
+    "lng": 88.467568
+  },
+  {
+    "pc11_state_id": "12",
+    "state_name": "Arunachal Pradesh",
+    "lat": 28.057274,
+    "lng": 94.481115
+  },
+  {
+    "pc11_state_id": "13",
+    "state_name": "Nagaland",
+    "lat": 26.119396,
+    "lng": 94.28552
+  },
+  {
+    "pc11_state_id": "14",
+    "state_name": "Manipur",
+    "lat": 24.767813,
+    "lng": 93.870165
+  },
+  {
+    "pc11_state_id": "15",
+    "state_name": "Mizoram",
+    "lat": 23.23371,
+    "lng": 92.848205
+  },
+  {
+    "pc11_state_id": "16",
+    "state_name": "Tripura",
+    "lat": 23.733467,
+    "lng": 91.745745
+  },
+  {
+    "pc11_state_id": "17",
+    "state_name": "Meghalaya",
+    "lat": 25.574623,
+    "lng": 91.312788
+  },
+  {
+    "pc11_state_id": "18",
+    "state_name": "Assam",
+    "lat": 26.056055,
+    "lng": 92.857762
+  },
+  {
+    "pc11_state_id": "19",
+    "state_name": "West Bengal",
+    "lat": 24.381583,
+    "lng": 87.849108
+  },
+  {
+    "pc11_state_id": "20",
+    "state_name": "Jharkhand",
+    "lat": 23.66026,
+    "lng": 85.624514
+  },
+  {
+    "pc11_state_id": "21",
+    "state_name": "Odisha",
+    "lat": 20.184093,
+    "lng": 84.435787
+  },
+  {
+    "pc11_state_id": "22",
+    "state_name": "Chhattisgarh",
+    "lat": 20.942123,
+    "lng": 82.319607
+  },
+  {
+    "pc11_state_id": "23",
+    "state_name": "Madhya Pradesh",
+    "lat": 23.971504,
+    "lng": 78.421349
+  },
+  {
+    "pc11_state_id": "24",
+    "state_name": "Gujarat",
+    "lat": 22.423758,
+    "lng": 71.305514
+  },
+  {
+    "pc11_state_id": "25",
+    "state_name": "Daman and Diu",
+    "lat": 20.55462,
+    "lng": 71.887168
+  },
+  {
+    "pc11_state_id": "26",
+    "state_name": "Dadra and Nagar Haveli",
+    "lat": 20.206259,
+    "lng": 73.075733
+  },
+  {
+    "pc11_state_id": "27",
+    "state_name": "Maharashtra",
+    "lat": 18.819908,
+    "lng": 76.767781
+  },
+  {
+    "pc11_state_id": "28",
+    "state_name": "Andhra Pradesh",
+    "lat": 16.265927,
+    "lng": 80.757275
+  },
+  {
+    "pc11_state_id": "29",
+    "state_name": "Karnataka",
+    "lat": 15.038111,
+    "lng": 76.316002
+  },
+  {
+    "pc11_state_id": "30",
+    "state_name": "Goa",
+    "lat": 15.276722,
+    "lng": 74.006012
+  },
+  {
+    "pc11_state_id": "31",
+    "state_name": "Lakshadweep",
+    "lat": 9.986957,
+    "lng": 72.93275
+  },
+  {
+    "pc11_state_id": "32",
+    "state_name": "Kerala",
+    "lat": 10.544263,
+    "lng": 76.13444
+  },
+  {
+    "pc11_state_id": "33",
+    "state_name": "Tamil Nadu",
+    "lat": 10.825422,
+    "lng": 78.289043
+  },
+  {
+    "pc11_state_id": "34",
+    "state_name": "Puducherry",
+    "lat": 13.794711,
+    "lng": 78.918675
+  },
+  {
+    "pc11_state_id": "35",
+    "state_name": "Andaman and Nicobar Islands",
+    "lat": 10.216955,
+    "lng": 93.07497
+  }
+]
