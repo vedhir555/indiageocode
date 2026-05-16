@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>India Place Finder — SOI Toponyms</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=DM+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #0e0e0f;
+    --surface: #17181a;
+    --border:  #2a2b2e;
+    --accent:  #e87c3a;
+    --accent2: #3ab8e8;
+    --text:    #e8e4dc;
+    --muted:   #7a7870;
+    --radius:  6px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'DM Mono', monospace;
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; padding: 40px 20px 80px;
+  }
+  header { text-align: center; margin-bottom: 48px; }
+  header h1 {
+    font-family: 'Syne', sans-serif; font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -0.03em; line-height: 1;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  header p { margin-top: 10px; color: var(--muted); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 32px; width: 100%; max-width: 900px;
+  }
+
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  @media (max-width: 580px) { .row2 { grid-template-columns: 1fr; } }
+
+  label {
+    display: block; font-size: 0.68rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 6px;
+  }
+  select, input {
+    width: 100%; background: var(--bg); border: 1px solid var(--border);
+    border-radius: var(--radius); color: var(--text);
+    font-family: 'DM Mono', monospace; font-size: 0.85rem;
+    padding: 10px 12px; appearance: none; outline: none; transition: border-color 0.15s;
+  }
+  select:focus, input:focus { border-color: var(--accent); }
+  select:disabled { opacity: 0.35; cursor: not-allowed; }
+  .select-wrap { position: relative; }
+  .select-wrap::after {
+    content: '▾'; position: absolute; right: 12px; top: 50%;
+    transform: translateY(-50%); color: var(--muted); pointer-events: none; font-size: 0.75rem;
+  }
+
+  .pills-label { font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+  .pill {
+    background: rgba(255,255,255,0.04); border: 1px solid var(--border);
+    border-radius: 20px; padding: 3px 11px; font-size: 0.63rem; letter-spacing: 0.08em;
+    text-transform: uppercase; cursor: pointer; color: var(--muted); transition: all 0.15s;
+    user-select: none;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--text); }
+  .pill.active { background: rgba(232,124,58,0.14); border-color: var(--accent); color: var(--accent); }
+  .pill.all-pill.active { background: rgba(58,184,232,0.12); border-color: var(--accent2); color: var(--accent2); }
+
+  .summary-bar {
+    display: flex; gap: 20px; flex-wrap: wrap;
+    font-size: 0.7rem; color: var(--muted); margin-bottom: 14px;
+  }
+  .summary-bar span { color: var(--text); font-weight: 500; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  thead tr { border-bottom: 1px solid var(--border); }
+  th { text-align: left; padding: 8px 6px; color: var(--muted); font-size: 0.63rem; letter-spacing: 0.1em; text-transform: uppercase; }
+  td { padding: 7px 6px; border-bottom: 1px solid #1e1f21; vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+
+  .hindi    { font-family: 'Tiro Devanagari Hindi', serif; font-size: 0.92rem; }
+  .badge    { display: inline-block; border-radius: 3px; padding: 1px 6px; font-size: 0.61rem; letter-spacing: 0.06em; }
+  .b-VILLAGE  { background:rgba(58,232,124,0.12);  color:#3ae87c; }
+  .b-TOWN     { background:rgba(232,180,58,0.15);  color:#e8c03a; }
+  .b-CITY     { background:rgba(232,58,124,0.14);  color:#e83a96; }
+  .b-WATER,
+  .b-RIVER,
+  .b-LAKE,
+  .b-STREAM   { background:rgba(58,124,232,0.14);  color:#3ab8e8; }
+  .b-HILL,
+  .b-MOUNTAIN,
+  .b-PEAK,
+  .b-RIDGE    { background:rgba(180,140,90,0.18);  color:#c8a86a; }
+  .b-default  { background:rgba(255,255,255,0.06); color:var(--muted); }
+  .coords   { color: var(--muted); font-size: 0.7rem; }
+  .sub-cell { font-size: 0.66rem; color: var(--muted); }
+
+  .empty  { text-align:center; padding:48px 0; color:var(--muted); font-size:0.8rem; }
+  .loader { display:none; text-align:center; padding:32px; color:var(--muted); font-size:0.8rem; letter-spacing:0.1em; }
+  .loader.visible { display:block; }
+  #status { font-size:0.72rem; color:var(--muted); margin-bottom:14px; min-height:18px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>India Place Finder</h1>
+  <p>Survey of India · Toponym Database · 728 Districts</p>
+</header>
+
+<div class="card">
+
+  <!-- Row 1: State + District -->
+  <div class="row2">
+    <div>
+      <label for="selState">State / UT</label>
+      <div class="select-wrap">
+        <select id="selState"><option value="">— Select State —</option></select>
+      </div>
+    </div>
+    <div>
+      <label for="selDistrict">District</label>
+      <div class="select-wrap">
+        <select id="selDistrict" disabled><option value="">— Select District —</option></select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Subdistrict + Search -->
+  <div class="row2">
+    <div>
+      <label for="selSub">Subdistrict / Area</label>
+      <div class="select-wrap">
+        <select id="selSub" disabled><option value="">— All Areas —</option></select>
+      </div>
+    </div>
+    <div>
+      <label for="txtSearch">Search places</label>
+      <input id="txtSearch" type="text" placeholder="English or Hindi name…" disabled>
+    </div>
+  </div>
+
+  <!-- Feature type pills -->
+  <div id="pillsWrap" style="display:none">
+    <div class="pills-label">Filter by type</div>
+    <div class="pills" id="pills"></div>
+  </div>
+
+  <!-- Summary bar -->
+  <div class="summary-bar" id="sumBar" style="display:none">
+    <div>Total <span id="sTotal">—</span></div>
+    <div>Showing <span id="sShow">—</span></div>
+    <div>Areas <span id="sSubs">—</span></div>
+    <div>Types <span id="sTypes">—</span></div>
+  </div>
+
+  <div id="status"></div>
+  <div class="loader" id="loader">Loading…</div>
+  <div id="results"><div class="empty">Select a state and district to begin.</div></div>
+
+</div>
+
+<script>
+const BASE = './data/';
+let allPlaces = [], activeTypes = new Set(['ALL']), distMeta = {};
+
+function safe(s){ return s.toUpperCase().replace(/[^A-Z0-9_]/g,'_'); }
+function setStatus(m){ document.getElementById('status').textContent = m; }
+function showLoader(v){ document.getElementById('loader').classList.toggle('visible',v); }
+
+function badgeClass(t){
+  if(!t) return 'b-default';
+  const u = t.toUpperCase();
+  const known = ['VILLAGE','TOWN','CITY','WATER','RIVER','LAKE','STREAM','HILL','MOUNTAIN','PEAK','RIDGE'];
+  return known.includes(u) ? 'b-'+u : 'b-default';
+}
+
+async function loadIndex(){
+  const r = await fetch(BASE+'index.json');
+  const idx = await r.json();
+  const sel = document.getElementById('selState');
+  Object.keys(idx).sort().forEach(st=>{
+    const o=document.createElement('option'); o.value=st; o.textContent=st; sel.appendChild(o);
+  });
+  return idx;
+}
+
+function populateSubs(subs){
+  const s=document.getElementById('selSub');
+  s.innerHTML='<option value="">— All Areas —</option>';
+  subs.forEach(sd=>{ const o=document.createElement('option'); o.value=sd; o.textContent=sd; s.appendChild(o); });
+  s.disabled = subs.length===0;
+}
+
+function buildPills(ftypes){
+  const c=document.getElementById('pills'), w=document.getElementById('pillsWrap');
+  c.innerHTML='';
+  if(!ftypes||!ftypes.length){ w.style.display='none'; return; }
+  w.style.display='';
+  activeTypes=new Set(['ALL']);
+
+  const ap=document.createElement('div');
+  ap.className='pill all-pill active'; ap.textContent='ALL'; ap.dataset.type='ALL';
+  ap.onclick=()=>{ activeTypes=new Set(['ALL']); syncPills(); renderTable(allPlaces); };
+  c.appendChild(ap);
+
+  ftypes.forEach(ft=>{
+    const p=document.createElement('div');
+    p.className='pill'; p.textContent=ft; p.dataset.type=ft;
+    p.onclick=()=>{
+      if(activeTypes.has('ALL')) activeTypes.clear();
+      activeTypes.has(ft) ? activeTypes.delete(ft) : activeTypes.add(ft);
+      if(!activeTypes.size) activeTypes.add('ALL');
+      syncPills(); renderTable(allPlaces);
+    };
+    c.appendChild(p);
+  });
+}
+
+function syncPills(){
+  document.querySelectorAll('.pill').forEach(p=>{
+    p.classList.toggle('active', activeTypes.has(p.dataset.type));
+  });
+}
+
+function renderTable(places){
+  const q   = document.getElementById('txtSearch').value.toLowerCase().trim();
+  const sub = document.getElementById('selSub').value;
+  let fil   = places;
+  if(sub) fil = fil.filter(p=>p.sub===sub);
+  if(!activeTypes.has('ALL')) fil = fil.filter(p=>activeTypes.has(p.type));
+  if(q)   fil = fil.filter(p=>p.name.toLowerCase().includes(q)||(p.hindi||'').includes(q));
+
+  const sb=document.getElementById('sumBar'); sb.style.display='';
+  document.getElementById('sTotal').textContent  = places.length.toLocaleString();
+  document.getElementById('sShow').textContent   = fil.length.toLocaleString();
+  document.getElementById('sSubs').textContent   = (distMeta.subdistricts||[]).length;
+  document.getElementById('sTypes').textContent  = (distMeta.feature_types||[]).length;
+
+  const el=document.getElementById('results');
+  if(!fil.length){ el.innerHTML='<div class="empty">No places match your filter.</div>'; setStatus('0 results'); return; }
+
+  const cap=2000;
+  let html=`<table><thead><tr>
+    <th>#</th><th>Name</th><th>हिन्दी</th><th>Type</th><th>Area</th><th>Coordinates</th>
+  </tr></thead><tbody>`;
+  fil.slice(0,cap).forEach((p,i)=>{
+    html+=`<tr>
+      <td class="coords">${i+1}</td>
+      <td>${p.name}</td>
+      <td class="hindi">${p.hindi||'—'}</td>
+      <td><span class="badge ${badgeClass(p.type)}">${p.type||'?'}</span></td>
+      <td class="sub-cell">${p.sub||'—'}</td>
+      <td class="coords">${p.lat}, ${p.lng}</td>
+    </tr>`;
+  });
+  html+='</tbody></table>';
+  if(fil.length>cap) html+=`<div style="text-align:center;padding:12px;color:var(--muted);font-size:0.73rem">
+    Showing ${cap.toLocaleString()} of ${fil.length.toLocaleString()} — use filters to narrow down</div>`;
+  el.innerHTML=html;
+  setStatus(`${fil.length.toLocaleString()} places`);
+}
+
+(async()=>{
+  const idx = await loadIndex();
+
+  document.getElementById('selState').addEventListener('change', function(){
+    const st=this.value;
+    const dsel=document.getElementById('selDistrict'), ssel=document.getElementById('selSub');
+    dsel.innerHTML='<option value="">— Select District —</option>';
+    ssel.innerHTML='<option value="">— All Areas —</option>'; ssel.disabled=true;
+    document.getElementById('txtSearch').disabled=true;
+    document.getElementById('results').innerHTML='<div class="empty">Select a district.</div>';
+    document.getElementById('pillsWrap').style.display='none';
+    document.getElementById('sumBar').style.display='none';
+    setStatus(''); allPlaces=[];
+    if(!st){ dsel.disabled=true; return; }
+    dsel.disabled=false;
+    Object.keys(idx[st]||{}).sort().forEach(d=>{
+      const o=document.createElement('option'); o.value=d; o.textContent=d; dsel.appendChild(o);
+    });
+  });
+
+  document.getElementById('selDistrict').addEventListener('change', async function(){
+    const st=document.getElementById('selState').value, dst=this.value;
+    if(!st||!dst) return;
+    showLoader(true);
+    document.getElementById('results').innerHTML='';
+    document.getElementById('sumBar').style.display='none';
+    setStatus(''); activeTypes=new Set(['ALL']);
+    try{
+      const r=await fetch(BASE+safe(st)+'/'+safe(dst)+'.json');
+      const data=await r.json();
+      allPlaces=data.places||[];
+      distMeta={subdistricts:data.subdistricts||[], feature_types:data.feature_types||[]};
+      populateSubs(data.subdistricts||[]);
+      buildPills(data.feature_types||[]);
+      document.getElementById('txtSearch').disabled=false;
+      document.getElementById('txtSearch').value='';
+      renderTable(allPlaces);
+    }catch(e){
+      document.getElementById('results').innerHTML='<div class="empty">Could not load district data.</div>';
+    }
+    showLoader(false);
+  });
+
+  document.getElementById('selSub').addEventListener('change', ()=>renderTable(allPlaces));
+  document.getElementById('txtSearch').addEventListener('input', ()=>renderTable(allPlaces));
+})();
+</script>
+</body>
+</html>
